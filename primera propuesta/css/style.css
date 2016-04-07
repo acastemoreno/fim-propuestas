@@ -63,3 +63,102 @@ p {
 footer.page-footer {
   margin: 0;
 }
+
+
+.image_carousel {
+   width: 90%;
+   position: relative;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.image_carousel div#foo1 div.new, .image_carousel div#foo2 div.new {
+   float: left;
+   display: block;
+   overflow: hidden;
+   margin-left: 1px;
+   width: 360px;
+   text-align: center;
+   height: 100%;
+}
+
+.image_carousel div#foo1 div.new div a, .image_carousel div#foo2 div.new div a{
+   color: #2279b3;
+   font-size: 18px;
+   line-height: 24px;
+}
+
+.image_carousel div#foo1 div.new div h5, .image_carousel div#foo2 div.new div h5{
+   margin-top: 20px;
+}
+
+div#foo1 img, div#foo2 img {
+   width: 90%; margin-left: 5%; margin-right: 5%;
+}
+
+.image_carousel #slides {
+   background: #fcfcfc;
+}
+
+a.prev, a.next {
+    background: url(../images/miscellaneous_sprite.png) no-repeat transparent;
+    width: 45px;
+    height: 50px;
+    display: block;
+    position: absolute;
+    top: 85px;
+    -webkit-transition: none;
+    transition: none;
+}
+
+a.prev {
+  left: -22px;
+    background-position: 0 0; 
+}
+
+a.prev:hover {
+  background-position: 0 -50px;
+}
+
+a.prev.disabled {
+  background-position: 0 -100px !important;
+}
+a.next {
+  right: -22px;
+  background-position: -50px 0; }
+a.next:hover {
+  background-position: -50px -50px;
+}
+a.next.disabled {
+  background-position: -50px -100px !important;
+}
+a.prev.disabled, a.next.disabled {
+    cursor: default;
+}
+a.prev span, a.next span {
+    display: none;
+}
+.pagination {
+    text-align: center;
+    width: 100%;
+}
+.pagination a {
+    background: url(../images/miscellaneous_sprite.png) 0 -300px no-repeat transparent;
+    width: 15px;
+    height: 15px;
+    margin: 0 5px 0 0;
+    display: inline-block;
+    -webkit-transition: none;
+    transition: none;
+}
+.pagination a.selected {
+    background-position: -25px -300px;
+    cursor: default;
+}
+.pagination a span {
+    display: none;
+}
+.clearfix {
+    float: none;
+    clear: both;
+}
