@@ -1,0 +1,109 @@
+*{
+    font-family: "proximanova-regular-webfont";
+}
+
+/*fuente*/
+@font-face{
+    font-family: proximanova-bold-webfont;
+    src: url(../fonts/proxima-nova/proximanova-bold-webfont.ttf);
+}
+@font-face{
+    font-family: proximanova-light-webfont;
+    src: url(../fonts/proxima-nova/proximanova-light-webfont.ttf);
+}
+@font-face{
+    font-family: proximanova-regitalic-webfont;
+    src: url(../fonts/proxima-nova/proximanova-regitalic-webfont.ttf);
+}
+@font-face{
+    font-family: proximanova-regular-webfont;
+    src: url(../fonts/proxima-nova/proximanova-regular-webfont.ttf);
+}
+
+/*header*/
+header{
+    padding: 0.21% 5%;
+    position: fixed;
+    margin: auto;
+    width: 100%;
+    background-color: white;
+    border-bottom: 2px solid #F6F6F6;
+    z-index: 2;
+
+}
+nav{
+     list-style-type: none;
+     padding-top: 9%;
+     padding-right: 2%;
+    
+
+}
+header nav a{
+    
+    color: #606060;    
+    padding-right: 8%;
+    padding-left: 6%;
+    font-size: 1.2em;
+
+}
+
+header nav a:hover{
+    background-color: #F6F6F6;
+}
+header nav a:first-child{
+border-right: 1px solid #606060;
+}
+
+.w-320 {
+    width: 260px;
+}
+
+a{
+    text-decoration: none;
+    color: #606060;
+}
+
+/*footer*/
+footer{
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+    
+}
+
+footer li{
+
+    color: #606060;
+    display: inline-block;
+    font-size: 1.3em;
+    padding: 0% 0.5%;    
+}
+
+.iconos img{
+    margin-right: 0.8%;
+    padding-top: 1%;
+}
+
+.privacy{
+    font-size: 0.78em;
+    padding-top: 1%;
+   }
+footer nav{
+    padding-top: 2%;
+}
+
+footer p{
+    font-size: 0.8em;
+    padding-top: 1%;
+}
+
+@media only screen and (max-width: 1000px) {
+.img-logo{
+   position: relative;
+   left: 25%;
+   margin-top: 3.5%;
+   width: 160px;
+}
+
+}

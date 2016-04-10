@@ -1,0 +1,208 @@
+.banner{
+	background-image: url("../img/background1.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	padding: 14% 5% 5% 5%;
+}
+
+.banner img{
+	margin-top: 5%;
+}
+
+.acreditacion h1{
+	color: white;
+}
+
+.acreditacion{
+	background-image: url("../img/hero-image.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 13% 5% 15% 5%;
+}
+
+.acreditacion img{
+	margin-top: 5%;
+}
+
+.cierre{
+	background-image: url("../img/background3.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 19% 5% 23% 5%;
+}
+
+.cierre img{
+	margin-top: 5%;
+}
+
+.description{
+	padding: 135px 215px;
+}
+
+.description p:first-child{
+	font-size: 25px;
+	color: gray;
+	line-height: 35px;
+	font-family: "proximanova-light-webfont";
+}
+
+.description p:last-child{
+	font-size: 30px;
+	margin-top: 77px;
+	font-family: "proximanova-light-webfont";
+}
+
+.div-home{
+	border: 1px solid #979797;	
+	height: 300px;
+	padding: 10%;
+	line-height: 21px;
+}
+
+.div-home h2{
+	margin: 10% 0;
+}
+
+.tres-div{
+	padding: 7px 168px 100px 168px;
+}
+.tres-div .col-4{
+	padding: 14px;
+}
+
+.tres-div h1{
+	padding: 14px;
+	font-size: 21px;
+}
+
+
+.pe{
+	font-size: 16px !important;
+	text-align: center;
+	font-family: "proximanova-regular-webfont";
+}
+.contact-us{
+	background-image: url("../img/background-contac-us.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 91px 50px 77px 50px;
+}
+
+.contact-us h2{
+	font-size: 42px;
+}
+
+.contact-us p{
+	font-size: 28px;
+	margin: 35px 0;
+}
+
+form {
+    margin-top:30px;
+}
+
+input {
+	width: 470px;
+	color:#979797; /*grey*/
+	font-size: 28px;
+	padding: 13px;
+	margin: auto;
+	margin-bottom: 14px;
+ 	border: 2px solid #dad7d7; /*grey*/
+ 	display: block;
+ 	text-align: center;
+}
+
+.btn-send{
+	width: 235px;
+	color:white;
+	font-size:28px;
+	padding: 9px 0;
+	border-radius: 3%;
+  	margin-top:28px;
+	border: none;
+}
+
+.btn-send:hover{
+	background-color: rgba(0,0,0,0);
+}
+
+
+
+/*** movil***/
+
+@media screen and (max-width: 920px) {
+
+    .banner{
+    	padding: 35% 10% 5% 10%;
+    }
+
+    .description{
+	padding: 14% 16%;
+	}	
+
+	.tres-div{
+	padding: 0;
+	}
+
+    .container-fluid .col-4{
+    	width: 100%;
+    	display: block;
+    	margin-top: 21px;
+    	padding: 0 14px;
+    }
+
+    .div-home{
+    height: 350px;
+	padding: 10%;
+	line-height: 28px;
+	}
+
+	.div-home h2{
+	font-size: 28px;
+	}
+
+	.div-home p{
+	font-size: 18px;
+	}
+
+    .contact-us{
+	background:none;
+	background-color: white;
+	color: #979797;
+	}
+
+	.contact-us h2{
+	font-size: 42px;
+	}
+	
+	.contact-us p{
+	font-size: 21px;
+	margin: 35px 0;
+	color: #606060;
+	}
+
+    input {
+	width: 100%;
+	}
+
+	.btn-send{
+	width: 100%;
+	padding: 13px;
+	}
+}
+
+@media screen and (max-width: 1400px) {
+ 	.contact-us{
+	padding: 77px 50px 77px 50px;
+}
+
+	.div-home h2{
+	font-size: 35px;
+	}
+
+	.tres-div{
+	padding: 7px 50px 100px 50px;
+}
+}
